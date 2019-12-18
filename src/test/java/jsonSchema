@@ -1,0 +1,45 @@
+{
+    "type": "object",
+    "properties": {
+        "response": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "type": "integer"
+                    },
+                    "first_name": {
+                        "type": "string"
+                    },
+                    "last_name": {
+                        "type": "string"
+                    },
+                    "is_closed": {
+                        "type": "boolean"
+                    },
+                    "can_access_closed": {
+                        "type": "boolean"
+                    },
+                    "city": {
+                        "type": "object",
+                        "properties": {
+                            "id": {
+                                "type": "integer"
+                            },
+                            "title": {
+                                "type": "string"
+                            }
+                        }
+                    },
+                    "photo_50": {
+                        "type": "string"
+                    },
+                    "verified": {
+                        "type": "boolean"
+                    }
+                }
+            }
+        }
+    }
+}

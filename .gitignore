@@ -1,0 +1,8 @@
+.idea
+.git
+allure-results
+*/*.iml
+target
+*/.DS_Store
+.DS_Store
+rest-assured.iml
